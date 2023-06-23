@@ -1,0 +1,218 @@
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url(/assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 500, 700, 800;
+}
+p {
+  font-size: 18px;
+}
+
+/* 
+.attribution { 
+      font-size: 11px; 
+      text-align: center;
+      margin-top: 265px; 
+    }
+    .attribution a { 
+      color: hsl(228, 45%, 44%); 
+    }
+*/
+
+/* Configurando o Cartão 1 */
+
+div.card1 {
+  position: absolute;
+  color: #fff;
+  background-color: #553af7;
+  border-radius: 30px;
+  text-align: center;
+  margin: 0px 780px 0px 400px;
+  width: 350px;
+  height: 495px;
+}
+div.card1 h1 {
+  opacity: 0.8;
+  font-size: 23px;
+  margin: 40px 0px 30px 0px;
+}
+div.card1 div#circle {
+  background: linear-gradient(to bottom, #4d22c9, #553af7);
+  border-radius: 50%;
+  border: 1px solid #553af7;
+  width: 180px;
+  height: 180px;
+  margin: 0px 0px 35px 90px;
+}
+div.card1 div#circle p.resultado {
+  font-weight: bold;
+  font-size: 65px;
+  margin-top: 35px;
+}
+div.card1 div#circle p.pico {
+  opacity: 0.7;
+  font-size: 18px;
+  margin: -72px 0px 0px 0px; 
+}
+div.card1 div#legenda h2{
+  font-size: 35px;
+  margin: -5px 0px -5px 0px;
+}
+div.card1 div#legenda p {
+  font-size: 18px;
+  margin-left: 50px;
+  margin-right: 50px;
+  opacity: 0.7;
+}
+
+/* Configurando o Cartão 2 */
+
+div.card2 {
+  padding-left: 350px;
+  background-color: #fff;
+  border-radius: 30px;
+  border: 1px solid #fff;
+  text-align: center;
+  margin: 100px 0px 0px 400px;
+  width: 350px;
+  height: 494px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+
+}
+div.card2 h1 {
+  font-size: 23px;
+  text-align: left;
+  margin: 40px 0px 0px 40px;
+  opacity: 0.8;
+}
+div.card2 span {
+  color: #a5a1af;
+}
+
+/* Configurando Habilidades */
+
+/* Configurando Habilidade 1 */
+
+div.habilidade1 {
+  background-color: #fff5f5;
+  display: flex;
+  width: 270px;
+  margin: 25px 40px 15px 40px;
+  border-radius: 10px;
+}
+div.habilidade1 p {
+  font-size: 20px;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.icone1 {
+  padding-right: 0px;
+  margin-left: 12px;
+  margin-right: 8px;
+}
+.hab1 {
+  color: hsl(0, 100%, 67%);
+}
+.ponto1 {
+  margin-left: 65px;
+}
+
+/* Configurando Habilidade 2 */
+
+div.habilidade2 {
+  background-color: #fffbf2;
+  display: flex;
+  width: 270px;
+  margin: 12px 40px 15px 40px;
+  border-radius: 10px;
+}
+div.habilidade2 p {
+  font-size: 20px;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.icone2 {
+  padding-right: 0px;
+  margin-left: 12px;
+  margin-right: 8px;
+}
+.hab2 {
+  color: hsl(39, 100%, 56%);
+}
+.ponto2 {
+  margin-left: 68px;
+}
+
+/* Configurando Habilidade 3 */
+
+div.habilidade3 {
+  background-color: #f2fbfa;
+  display: flex;
+  width: 270px;
+  margin: 12px 40px 15px 40px;
+  border-radius: 10px;
+}
+div.habilidade3 p {
+  font-size: 20px;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.icone3 {
+  padding-right: 0px;
+  margin-left: 12px;
+  margin-right: 8px;
+}
+.hab3 {
+  color: hsl(166, 100%, 37%);
+}
+.ponto3 {
+  margin-left: 84px;
+}
+
+/* Configurando Habilidade 4 */
+
+div.habilidade4 {
+  background-color: #f3f3fd;
+  display: flex;
+  width: 270px;
+  margin: 12px 40px 0px 40px;
+  border-radius: 10px;
+}
+div.habilidade4 p {
+  font-size: 20px;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.icone4 {
+  padding-right: 0px;
+  margin-left: 12px;
+  margin-right: 8px;
+}
+.hab4 {
+  color: hsl(234, 85%, 45%);
+}
+.ponto4 {
+  margin-left: 89px;
+}
+
+/* Configurando Botão */
+
+.botao {
+  background-color: hsl(224, 30%, 27%);
+  color: #fff;
+  font-size: 18px;
+  padding: 15px 100px 15px 100px;
+  border-radius: 50px;
+  border: hsl(224, 30%, 27%);
+  margin: 45px 0px 0px 0px;
+}
+.botao:hover {
+  background-color: #5f3ffc;
+}
